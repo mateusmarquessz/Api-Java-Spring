@@ -1,0 +1,92 @@
+[
+  {
+    "titulo": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "autor": "Robert C. Martin",
+    "area": "Desenvolvimento de Software",
+    "imagem": "https://example.com/clean_code.jpg",
+    "editora": "Prentice Hall",
+    "ano_de_publicacao": 2008,
+    "isbn": "978-0132350884"
+  },
+  {
+    "titulo": "The Pragmatic Programmer: Your Journey to Mastery",
+    "autor": "Andrew Hunt, David Thomas",
+    "area": "Desenvolvimento de Software",
+    "imagem": "https://example.com/pragmatic_programmer.jpg",
+    "editora": "Addison-Wesley Professional",
+    "ano_de_publicacao": 1999,
+    "isbn": "978-0201616224"
+  },
+  {
+    "titulo": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "autor": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "area": "Engenharia de Software",
+    "imagem": "https://example.com/design_patterns.jpg",
+    "editora": "Addison-Wesley Professional",
+    "ano_de_publicacao": 1994,
+    "isbn": "978-0201633610"
+  },
+  {
+    "titulo": "Introduction to the Theory of Computation",
+    "autor": "Michael Sipser",
+    "area": "Teoria da Computação",
+    "imagem": "https://example.com/theory_of_computation.jpg",
+    "editora": "Cengage Learning",
+    "ano_de_publicacao": 2006,
+    "isbn": "978-0534950972"
+  },
+  {
+    "titulo": "You Don't Know JS: Scope & Closures",
+    "autor": "Kyle Simpson",
+    "area": "JavaScript",
+    "imagem": "https://example.com/you_dont_know_js.jpg",
+    "editora": "O'Reilly Media",
+    "ano_de_publicacao": 2014,
+    "isbn": "978-1449335588"
+  },
+  {
+    "titulo": "Artificial Intelligence: A Modern Approach",
+    "autor": "Stuart Russell, Peter Norvig",
+    "area": "Inteligência Artificial",
+    "imagem": "https://example.com/ai_modern_approach.jpg",
+    "editora": "Pearson",
+    "ano_de_publicacao": 2009,
+    "isbn": "978-0136042594"
+  },
+  {
+    "titulo": "Effective Java",
+    "autor": "Joshua Bloch",
+    "area": "Java",
+    "imagem": "https://example.com/effective_java.jpg",
+    "editora": "Addison-Wesley Professional",
+    "ano_de_publicacao": 2008,
+    "isbn": "978-0321356680"
+  },
+  {
+    "titulo": "Python Crash Course: A Hands-On, Project-Based Introduction to Programming",
+    "autor": "Eric Matthes",
+    "area": "Python",
+    "imagem": "https://example.com/python_crash_course.jpg",
+    "editora": "No Starch Press",
+    "ano_de_publicacao": 2015,
+    "isbn": "978-1593276034"
+  },
+  {
+    "titulo": "Code: The Hidden Language of Computer Hardware and Software",
+    "autor": "Charles Petzold",
+    "area": "Computação",
+    "imagem": "https://example.com/code_hidden_language.jpg",
+    "editora": "Microsoft Press",
+    "ano_de_publicacao": 2000,
+    "isbn": "978-0735611313"
+  },
+  {
+    "titulo": "The Mythical Man-Month: Essays on Software Engineering",
+    "autor": "Frederick P. Brooks Jr.",
+    "area": "Engenharia de Software",
+    "imagem": "https://example.com/mythical_man_month.jpg",
+    "editora": "Addison-Wesley Professional",
+    "ano_de_publicacao": 1975,
+    "isbn": "978-0201835953"
+  }
+]
