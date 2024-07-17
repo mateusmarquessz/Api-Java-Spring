@@ -3,9 +3,7 @@ package com.example.Api_Java_Spring.Controllers;
 import com.example.Api_Java_Spring.domain.Book;
 import com.example.Api_Java_Spring.services.BookService;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -22,7 +20,18 @@ public class BookController {
     @GetMapping("")
     public ResponseEntity<List<Book>> getBooks(){
         List<Book> books = this.service.getBooksFromLibrary();
-        System.out.println(books);
         return ResponseEntity.ok().body(books);
+    }
+
+    @PostMapping("")
+    public ResponseEntity<Book> registerBook(@RequestBody Book book) {
+        Book newBook = this.service.registerBook(book);
+        return ResponseEntity.ok().body(newBook);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteBook(@PathVariable("id") Long id) {
+        this.service.deleteBookById(id);
+        return ResponseEntity.noContent().build();
     }
 }

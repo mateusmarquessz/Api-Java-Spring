@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "titulo": "Clean Code: A Handbook of Agile Software Craftsmanship",
     "autor": "Robert C. Martin",
     "area": "Desenvolvimento de Software",
@@ -9,6 +10,7 @@
     "isbn": "978-0132350884"
   },
   {
+    "id": 2,
     "titulo": "The Pragmatic Programmer: Your Journey to Mastery",
     "autor": "Andrew Hunt, David Thomas",
     "area": "Desenvolvimento de Software",
@@ -18,6 +20,7 @@
     "isbn": "978-0201616224"
   },
   {
+    "id": 3,
     "titulo": "Design Patterns: Elements of Reusable Object-Oriented Software",
     "autor": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
     "area": "Engenharia de Software",
@@ -27,6 +30,7 @@
     "isbn": "978-0201633610"
   },
   {
+    "id": 4,
     "titulo": "Introduction to the Theory of Computation",
     "autor": "Michael Sipser",
     "area": "Teoria da Computação",
@@ -36,6 +40,7 @@
     "isbn": "978-0534950972"
   },
   {
+    "id": 5,
     "titulo": "You Don't Know JS: Scope & Closures",
     "autor": "Kyle Simpson",
     "area": "JavaScript",
@@ -45,6 +50,7 @@
     "isbn": "978-1449335588"
   },
   {
+    "id": 6,
     "titulo": "Artificial Intelligence: A Modern Approach",
     "autor": "Stuart Russell, Peter Norvig",
     "area": "Inteligência Artificial",
@@ -54,6 +60,7 @@
     "isbn": "978-0136042594"
   },
   {
+    "id": 7,
     "titulo": "Effective Java",
     "autor": "Joshua Bloch",
     "area": "Java",
@@ -63,6 +70,7 @@
     "isbn": "978-0321356680"
   },
   {
+    "id": 8,
     "titulo": "Python Crash Course: A Hands-On, Project-Based Introduction to Programming",
     "autor": "Eric Matthes",
     "area": "Python",
@@ -72,6 +80,7 @@
     "isbn": "978-1593276034"
   },
   {
+    "id": 9,
     "titulo": "Code: The Hidden Language of Computer Hardware and Software",
     "autor": "Charles Petzold",
     "area": "Computação",
@@ -81,6 +90,7 @@
     "isbn": "978-0735611313"
   },
   {
+    "id": 10,
     "titulo": "The Mythical Man-Month: Essays on Software Engineering",
     "autor": "Frederick P. Brooks Jr.",
     "area": "Engenharia de Software",

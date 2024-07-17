@@ -19,4 +19,12 @@ public class BookService {
     public List<Book> getBooksFromLibrary() {
         return this.bookClient.getBooks();
     }
+
+    public Book registerBook(Book book) {
+        return this.bookClient.registerBook(book);
+    }
+
+    public void deleteBookById(Long id) {
+        this.bookClient.deleteBookById(id);
+    }
 }

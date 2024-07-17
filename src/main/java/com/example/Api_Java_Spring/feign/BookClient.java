@@ -2,7 +2,7 @@ package com.example.Api_Java_Spring.feign;
 
 import com.example.Api_Java_Spring.domain.Book;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -12,4 +12,10 @@ public interface BookClient {
 
     @GetMapping("/books.json")
     List<Book> getBooks();
+
+    @PostMapping("/books.json")
+    Book registerBook(@RequestBody Book book);
+
+    @DeleteMapping("/books.json/{id}")
+    void deleteBookById(@PathVariable("id") Long id);
 }
